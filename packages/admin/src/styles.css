@@ -11,6 +11,8 @@
 @import "tailwindcss";
 @import "@cloudflare/kumo/styles/tailwind";
 @plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
 
 /* Scan Kumo component JS for Tailwind utility classes (e.g. Dialog centering) */
 @source "../node_modules/@cloudflare/kumo/dist";

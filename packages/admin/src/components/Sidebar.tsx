@@ -87,7 +87,7 @@ function NavMenuLink({ item, isActive }: { item: NavItem; isActive: boolean }) {
 				"emdash-nav-link group/menu-button flex w-full min-w-0 items-center gap-2.5 rounded-md no-underline outline-none cursor-pointer",
 				"min-h-[36px] px-3 py-1.5 text-[13px]",
 				"transition-all duration-200 ease-out",
-				isActive ? "bg-kumo-brand text-white" : "text-white/70 hover:text-white hover:bg-white/8",
+				isActive ? "bg-kumo-tint text-white" : "text-white/70 hover:text-white hover:bg-white/8",
 				"focus-visible:ring-2 focus-visible:ring-kumo-brand/50",
 			)}
 		>
@@ -349,7 +349,7 @@ export function SidebarNav({ manifest }: SidebarNavProps) {
 						<span className="text-base shrink-0" aria-hidden="true">
 							—
 						</span>
-						<span className="emdash-brand-text font-semibold truncate">EmDash</span>
+						<span className="  bg-accent font-semibold truncate">HELLO</span>
 					</Link>
 				</KumoSidebar.Header>
 
